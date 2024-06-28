@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SisterSphere</title>
+   <link rel="stylesheet" href="./homepage.css">
+   <style>
+       @import url('https://fonts.googleapis.com/css?family=Righteous');
+       </style>
+   <style>
+       @import url('https://fonts.googleapis.com/css?family=Poppins');
+       </style>
+   <script>
+   let alertShown = false;
+
+
+function popUp() {
+   if (!alertShown) {
+       alert("Welcome to the SisterSphere! Click the highlighted region on the map to explore activities happening in the area.");
+       alertShown = true; // Set the flag to true after showing the alert
+   }
+}
+       </script>
+
+
+</head>
+<body>
+ 
+   <div class="topnav" id="myTopnav">
+       <a href="index.html" class="active">SisterSphere</a>
+       <a href="activitiespage.html">Activities</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-bars"></i>
+       </a>
+   </div>
+
+
+   <div class="logo-container">
+       <img class="logo" src="./logowhite.png" width="179.5px" height="139.5px" alt="drawing-of-two-hands-pinky-promise"/>
+       <h1>SisterSphere</h1>
+   </div>
+
+
+   <div class="gif-container">
+       <img src="./Activities_Design.gif" width="800px" height="400px" alt="animated gallery of wellbeing activities">
+   </div>
+  
+   <div class="line"></div>
+
+
+
+
+<div class="map-container">
+
+
+<br> <h2>Map Your Next Adventure! &#128204; </h2>
+<img src="./uk-map-final.png" width="500px" height="598px" alt="map of uk" usemap="#activitymap" onmouseover="popUp()"/>
+<map name="activitymap">
+   <area shape="poly" coords="340,280, 393,275, 426,332, 372,355, 352,341, 348,314, 330,302"
+   href="../Yorkshire/yorkshire.html">
+</map>
+</div>
+
+
+<div class="line"></div>
+
+
+<div>
+   <h2>SisterSphere: Our Story &#x2728;</h2>
+   <div class="group-image">
+       <img src="./SisterSphere_Planet.gif" width="500px" height="500px" alt="logo on background of small uk map">
+      
+   </div>
+   <div class="white-space"></div>
+
+
+   <p>
+       Welcome to SisterSphere &#128149; Your sanctuary for wellbeing and lifestyle!
+       <br> Founded with the vision of creating a supportive and inspiring space for women from all walks of life, we are dedicated to promoting holistic health, personal growth, and vibrant living. We're a passionate team of six from across the UK— Anu, Beverley, Bianca, Charlotte, Nesrin, and Stephanie — dedicated to creating a vibrant community where girls and women can explore and engage in a wide array of activities whilst building connections, from crochet and art to running clubs and book groups.
+   </p>
+   <div class="white-space"></div>
+
+
+
+
+   </div>
+   <h3> Our Mission:
+       <br>
+       "Empowering women through connection, creativity, and wellness."
+       <div class="white-space"></div>
+       <div class="white-space"></div>
+
+
+   </h3>
+   <p>At Sistersphere, we believe in the power of community and the importance of nurturing both body and mind. Studies show that engaging in regular activities can reduce stress, improve mood, and boost overall life satisfaction. In fact, according to the National Institute of Mental Health, participating in leisure activities can decrease the risk of depression by 30%. We aim to foster a sense of belonging and sisterhood, encouraging each member to flourish and thrive.<br>
+      
+
+
+       <br>At SisterSphere, we aim to provide a supportive and inspiring environment where women of all ages can discover new passions, build lasting friendships, and enhance their well-being. Whether you're looking to unwind with a creative project, stay active with a running club, or share your love for reading, Sister Sphere has something for everyone.<br>
+      
+       <p> Our activities are as wide-ranging as they are far-reaching! They include:
+           <ul>
+               <li>Arts & Crafts &#129526;</li>
+               <li>Languages &#127758;</li>
+               <li>Supper Club &#127858;</li>
+               <li>Yoga &#129496;</li>
+               <li>Reading &#128218;</li>
+               <li>Painting &#127912;</li>
+               <li>Dancing &#128131;</li>
+               <li>Walking & Running Clubs &#128095;</li>
+               <li>Accountability Groups &#128109;</li>
+               <li>Swimming Clubs &#127946;</li>
+           ...and so much more!
+           </ul>
+       </p>
+
+
+     
+       <p>Join us in celebrating the importance of hobbies and activities for wellness. Together, we can create a space where women thrive, connect, and grow—one activity at a time.
+           <br>
+          
+           <br>Explore. Connect. Flourish. Welcome to SisterSphere - the space where sisters thrive together. We're absolutely delighted you're here. &#128149;
+           <br>
+       </p>
+        <div class="white-space"></div>
+       <div class="white-space"></div>      
+
+
+<div class="footer">
+   <p>SisterSphere 2024 &copy;</p>
+</div>
+
+
+   <script>
+       function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+               x.className += " responsive";
+           } else {
+               x.className = "topnav";
+           }
+       }
+   </script>
+</body>
+</html>
