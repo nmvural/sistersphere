@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Yorkshire and The Humber</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+        <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      </head>
+
+    <body>
+        <div class="topnav" id="myTopnav">
+          <a href="../Homepage/index.html" class="active">SisterSphere</a>
+            <img class="logo" src="./logowhite.png" alt="SisterSphere logo" width="51" height="42">
+            <a href="../Activities/activitiespage.html">Activities</a>
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <h1>Yorkshire & The Humber</h1>
+
+        <div class="intro-para">
+        <p>&#10024; We believe that hobbies and activities are an essential for keeping your mental and physical well being positive. As regular activities can reduce stress and boost your oxytocin levels (your 'happy' hormones). Here is our SisterSphere list of activities in your area &#10024;</p>
+        </div>
+
+        <div>
+        <iframe class="video" width="510" height="284" alt="youtube video importance of hobbies" src="https://www.youtube.com/embed/t_E649hgcao" title="Why Hobbies Are Important And How Do You Find Time For Hobbies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="line"></div>
+        
+        <div id="myBtnContainer">
+          <button class="btn-filter active" onclick="filterSelection('all')"> Show All Activities</button>
+          <button id="Sports-and-Leisure" class="btn-filter" onclick="filterSelection('Sports-and-Leisure')"> Sports and Leisure</button>
+          <button id="Mindfulness" class="btn-filter" onclick="filterSelection('Mindfulness')"> Mindfulness</button>
+          <button id="Art-and-Culture" class="btn-filter" onclick="filterSelection('Art-and-Culture')"> Art and Culture</button>
+        </div>
+
+    <div class="container">
+      <div class="filterDiv Mindfulness">
+        <div id="row1" class="row">
+          <div id="col1" class="col"><img src="http://www.growingworks.org.uk/wp-content/uploads/2023/01/190918-Almondbury-Community-Garden-1536x1152.jpg" alt="Almondbury Vegetable Beds by Growing Works" style="float: Left; width: 150px; height: 150px;"></div>
+          <div id="col2" class="col"><p>Growing Works - Huddersfield</p></div>
+          <div id="col3" class="col"><img src="./Wellbeing.jpg" width="85"; height="85" alt="Growing Works - Huddersfield" ></div>
+          <div id="col4" class="col"><a class="btn btn-light" href="http://www.growingworks.org.uk/" role="button">Take Me There</a></div>
+          <button type="btn-collapsible" class="collapsible">What We Do...</button>
+          <div class="content"><p>Growing Works welcomes families of children with additional needs and individuals of any age who want to use outdoor space and growing to find support with physical and emotional needs. They also offer volunteer and work experience opportunities.</p></div>
+        </div>
+       </div>
+     
+       <div class="filterDiv Art-and-Culture">
+         <div id="row2" class="row">
+           <div id="col1" class="col"><img src="https://thechapelof-art.com/wp-content/uploads/2023/09/IMG_0891-3.jpg" alt="Image of easel and table and chairs on patio" style="float: Left; width: 150px; height: 150px;"></div>
+           <div id="col2" class="col"><p>The Chapel of Art Retreats</p></div>
+           <div id="col3" class="col"><img src="./Art.jpg" width="85"; height="85" alt="The Chapel of Art Retreats"></div>
+           <div id="col4" class="col"><a class="btn btn-light" href="https://thechapelof-art.com/retreats/" role="button">Take Me There</a></div> 
+           <button type="btn-collapsible" class="collapsible">What We Do...</button>
+           <div class="content"><p>Take a few days out for yourself and immerse yourself in beautiful, artistic surroundings and release your creative spirit. In this 3 day women’s retreat in Yorkshire, guided by your expert art tutor Michelle Shore, you will explore and develop some key drawing and watercolour skills.</p></div>
+         </div>
+       </div>
+     
+       <div class="filterDiv Art-and-Culture">
+         <div id="row3" class="row">
+           <div id="col1" class="col"><img src="./take-the-nood.jpg" alt="Take The Nood Class" style="float: Left; width: 150px; height: 150px;"></div>
+           <div id="col2" class="col"><p>Take The Nood - Huddersfield</p></div>
+           <div id="col3" class="col"><img src="./Art.jpg" width="85"; height="85" alt="Take The Nood - Huddersfield"></div>
+           <div id="col4" class="col"><a class="btn btn-light" href="https://www.instagram.com/take_the_nood/" role="button">Take Me There</a></div>
+           <button type="btn-collapsible" class="collapsible">What We Do...</button>
+           <div class="content"><p>We are a body positive art workshop, come and explore your creativity and fall a little bit in love with your body. Art workshop designed to nurture your creativity and build a healthy relationship with your body.</p></div>
+         </div>
+       </div>
+     
+       <div class="filterDiv Sports-and-Leisure">
+         <div id="row4" class="row">
+           <div id="col1" class="col"><img src="https://www.placesleisure.org/media/lj0jfpt4/two-column-big-sister-boxercise.jpg?width=800&height=572&v=1da42f959542e70" alt="Image of The Big Sisiet Project" style="float: Left; width: 150px; height: 150px;"></div>
+           <div id="col2" class="col"><p>The Big Sister Project</p></div>
+           <div id="col3" class="col"><img src="./Sports.jpg" width="85"; height="85" alt="The Big Sister Project"></div>
+           <div id="col4" class="col"><a class="btn btn-light" href="https://womeninsport.org/creating-change/piloting-solutions/the-big-sister-project/" role="button">Take Me There</a></div>
+           <button type="btn-collapsible" class="collapsible">What We Do...</button>
+           <div class="content"><p>1.3 million teenage girls who once considered themselves as ‘sporty’ are dropping out of exercise and activity after primary school. But we know that given the right support and opportunities, teenage girls are motivated to take part in sport. That’s why we created the Big Sister project, a programme created by girls, for girls, to support teenage girls to enjoy sport, exercise and physical activity during puberty.</p></div>
+         </div>
+       </div>
+       
+       <div class="filterDiv Sports-and-Leisure">
+         <div id="row5" class="row">
+           <div id="col1" class="col"><img src="https://ehuupfv6enn.exactdn.com/wp-content/uploads/2022/05/Pool-5-768x512.jpg?strip=all&lossy=1&ssl=1" alt="Photo of swimming pool" style="float: Left; width: 150px; height: 150px;"></div>
+           <div id="col2" class="col"><p>Female Only Swimming - Kirklees Active Leisure</p></div>
+           <div id="col3" class="col"><img src="./Sports.jpg" width="85"; height="85" alt="Female Only Swimming - Kirklees Active Leisure"></div>
+           <div id="col4" class="col"><a class="btn btn-light" href="https://kal.org.uk/sports/female-only-swim/" role="button">Take Me There</a></div> 
+           <button type="btn-collapsible" class="collapsible">What We Do...</button>
+           <div class="content"><p>These sessions are aimed for adult females only. This is a lane-free pool session open to adult females where participants can swim length, widths or walk.</p></div>
+         </div>
+       </div>
+     
+       <div class="filterDiv Mindfulness">
+         <div id="row6" class="row">
+           <div id="col1" class="col"><img src="https://worldforagirl.com/wp-content/uploads/2018/01/Hike_Olten_Switzerland-300x225.jpg" alt="World for a girl illustration" style="float: Left; width: 150px; height: 150px;"></div>
+           <div id="col2" class="col"><p>World For A Girl</p></div>
+           <div id="col3" class="col"><img src="./Wellbeing.jpg" width="85"; height="85" alt="World For A Girl"></div>
+           <div id="col4" class="col"><a class="btn btn-light" href="https://worldforagirl.com/" role="button">Take Me There</a></div>
+           <button type="btn-collapsible" class="collapsible">What We Do...</button>
+           <div class="content"><p>Join our young family as we journey across the globe uncovering a world of fearless female explorers, powerful she-pirates and daring adventuresses. In museums, palaces and back alleys, we seek out women’s inspirational stories wherever we go.</p></div>
+         </div>
+       </div>
+     
+       <div class="filterDiv Art-and-Culture">
+         <div id="row7" class="row">
+           <div id="col1" class="col"><img src="https://www.bronte.org.uk/_assets/media/media/1125_large.jpg" alt="Bronte Parsonage Building" style="float: Left; width: 150px; height: 150px;"></div>
+           <div id="col2" class="col"><p>Bronte Parsonage</p></div>
+           <div id="col3" class="col"><img src="./Art.jpg" width="85"; height="85" alt="Bronte Parsonage"></div>
+           <div id="col4" class="col"><a class="btn btn-light" href="https://www.bronte.org.uk/" role="button">Take Me There</a></div>
+           <button type="btn-collapsible" class="collapsible">What We Do...</button>
+           <div class="content"><p>The Bronte Parsonage Museum in Haworth, West Yorkshire is a museum dedicated to the Bronte sisters – Charlotte, Emily and Ann – in their childhood home. The Bronte family moved to Haworth in 1820 when their father Patrick became the curate of Haworth church. Between 1847 and 1848 the sisters wrote the classic novels Jane Eyre, Wuthering Heights and The Tenant of Wildfell Hall at the Parsonage.
+           The Brontë collections at the Brontë Parsonage Museum are the largest and most important in the world and continue to inspire scholars, writers and artists. Our Contemporary Arts Programme includes literary events, exhibitions, artistic responses, a competition and festivals, and our lifelong learning programme enables us to reach students of all ages across the country.</p></div>
+         </div>
+       </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="intro-para">
+      <p>&#10024; We all know that a problem shared feels like a problem halved, when we talk about our life, our mental state and how we are feeling, we get to explore our emotions, releasing those stressful moments out into the open so that they no longer have a hold over us &#10024;</p>
+    </div>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade.">
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_632/eb0fe4117018561.606dc12458d0a.gif" style="width:100%" alt="tea gif">
+          <div class="text"><h2 class="slideshow-header">Fancy a Cuppa?</h2>Scroll to discover our featured cafes near you!</div>
+        </div>
+  
+      <div id="mySlides-fade" class="mySlides fade.">
+        <img src="./bettys-tea-room.jpg" style="width:100%" alt="Betty's Tea Room">
+        <div class="text"><h2 class="slideshow-header">Betty's Tea Room</h2>Betty’s is famous for afternoon tea with people travelling from all over the UK (even abroad) to come and experience the joy that having a cuppa here brings</div>
+      </div>
+    
+      <div id="mySlides-fade" class="mySlides fade.">
+        <img src="./lost-property.jpg" style="width:100%" alt="Lost Property">
+        <div class="text"><h2 class="slideshow-header">Lost Property</h2>A truly amazing place to spend a few hours enjoying afternoon tea with friends</div>
+      </div>
+    
+      <div id="mySlides-fade" class="mySlides fade.">
+        <img src="./northern-tea-house.png" style="width:100%" alt="Nortehrn Tea House">
+        <div class="text"><h2 class="slideshow-header">The Northern Tea House</h2>Serving a range of breakfast, brunch, lunch, sweet treats and afternoon tea for you to tuck in to this tea house is the perfect destination to spend some down time. There are lots of loose leaf tea varieties, coffees and other hot drinks to sit a while drinking watching the world pass by</div>
+      </div>
+  
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+    
+      <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+  
+   </div>
+
+   <div class="SANE">
+    <a href="https://www.sane.org.uk/campaigning-media/news-and-comment/a-chat-and-a-cuppa-mental-health-benefits-of-tea">Click HERE to find what SANE and The Tea Makers of London shared about the benefits of a cuppa and a chat</a>
+   </div>
+
+     <div id="footer" class=“footer”><p>SisterSphere 2024 &copy;</p></div>
+  
+  <link rel="stylesheet" href="./Yorkshire.css"> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./Yorkshire.js"></script>
+  </body>
+</html>

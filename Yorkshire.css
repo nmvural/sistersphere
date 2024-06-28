@@ -1,0 +1,298 @@
+.topnav {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #BB1668;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Righteous";
+    font-weight: 500;
+  }
+  
+  .topnav a:hover {
+    background-color: #6B8E23;
+    color: black;
+  }
+  
+  .topnav a.active {
+    float: left;
+    background-color: #BB1668;
+    color: white;
+  }
+
+h1 {
+    color: white;
+    background-image: linear-gradient(#BB1668, #6b8e23);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: "Righteous";
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0%;
+    margin-top: 50px;
+}
+
+.intro-para {
+  background-color: #BB1668;
+  border-radius: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Poppins";
+  font-size: 19px;
+}
+
+.intro-para p {
+  padding: 15px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin: 30px;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-top: 4px dotted #6B8E23;
+}
+
+#myBtnContainer {
+  margin: 30px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.container {
+  margin: auto;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.filterDiv {
+  display: none
+}
+
+.show {
+  display: block;
+}
+
+.btn-filter {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+#Mindfulness {
+  background-color: #6f1272;
+}
+
+#Sports-and-Leisure {
+  background-color: #64b5e1;
+}
+
+#Art-and-Culture {
+  background-color: #ee7409;
+}
+
+.btn-filter:hover {
+  opacity: 0.5;
+}
+
+.btn-filter.active {
+  background-color: #bb1668;
+  color: white;
+}
+
+.btn-filter.active:hover {
+  color: white;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.row {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #BB1668;
+  font-weight: 500;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-left: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: white;
+  outline: solid 10px #6B8E23;
+}
+
+.col {
+  margin: auto;
+  font-weight: 700;
+}
+
+.btn {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+.collapsible {
+font-family: "Poppins";
+background-color: #6B8E23;
+color: white;
+cursor: pointer;
+padding: 10px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+margin-top: 10px;
+text-align: center;
+}
+
+.collapsible:hover {
+background-color: #BB1668;
+}
+
+.content {
+display: none;
+overflow: hidden;
+background-color: #d7e6b7;
+color: black;
+text-align: center;
+}
+
+.content p {
+  padding-top: 15px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin:auto;
+  width: 40%;
+}
+
+#mySlides-fade {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #bb1668;
+}
+
+.text {
+  color: white;
+  background-color: #bb1668;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.slideshow-header {
+  font-size: 18px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #6b8e23;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #d7e6b7;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.SANE {
+  font-family: "Poppins";
+  color: #BB1668;
+  font-weight: 800;
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+a {
+  font-family: "Poppins";
+  color: #BB1668;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+#footer {
+  overflow:hidden;
+  background-color: #BB1668;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 100px;
+}
+
+#footer p {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Righteous";
+  overflow-x: hidden;
+}
